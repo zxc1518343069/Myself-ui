@@ -1,10 +1,10 @@
 <template>
-    $END$
+  <button>点击</button>
 </template>
 
 <script>
   export default {
-    name: 'button'
+    name: 'ac-button'
   }
 </script>
 
