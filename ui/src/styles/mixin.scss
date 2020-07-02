@@ -1,8 +1,7 @@
 //flex布局复用
-@mixin flexSet($dis:flex,$hov:space-between, $col:center,$ver:center) {
+@mixin flexSet($dis:flex,$hov:space-between,$ver:middle) {
   display: $dis;
   justify-content: $hov; //上下
-  align-items: $col; // 左右
   vertical-align: $ver // 图片对其
 };
 @mixin position($pos:absolute,$top:0,$left:0,$width:100%,$height:100%){

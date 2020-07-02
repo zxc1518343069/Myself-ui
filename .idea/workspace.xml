@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a43b5010-a0a4-4cd5-b34d-f024d7be20c3" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/ui/src/styles/_var.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/src/styles/mixin.scss" afterDir="false" />
+    <list default="true" id="a43b5010-a0a4-4cd5-b34d-f024d7be20c3" name="默认更改列表" comment="buttonGroup 和 测试完成">
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/src/packages/ButtonGroup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/src/styles/icon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/tests/button.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/vue.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/src/packages/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/packages/Button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/packages/Icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/packages/Icon.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/packages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/packages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/styles/_var.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/styles/_var.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/styles/mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/styles/mixin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/tests/unit/example.spec.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +73,41 @@
       <recent name="D:\UI\Myself-ui\ui\src\packages" />
     </key>
   </component>
+  <component name="RunManager" selected="Karma.button.vue.1. 测试1+1">
+    <configuration name="button.vue" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/ui/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/ui/node_modules/karma" />
+      <working-directory value="$PROJECT_DIR$/ui" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file-path value="$PROJECT_DIR$/ui/tests/button.spec.js" />
+      <test-names>
+        <test-name value="button.vue" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="button.vue.1. 测试1+1" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/ui/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/ui/node_modules/karma" />
+      <working-directory value="$PROJECT_DIR$/ui" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file-path value="$PROJECT_DIR$/ui/tests/button.spec.js" />
+      <test-names>
+        <test-name value="button.vue" />
+        <test-name value="1. 测试1+1" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Karma.button.vue.1. 测试1+1" />
+        <item itemvalue="Karma.button.vue" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -75,8 +121,16 @@
       <workItem from="1593594702431" duration="9000" />
       <workItem from="1593594745228" duration="286000" />
       <workItem from="1593595049156" duration="9126000" />
-      <workItem from="1593652464271" duration="132000" />
+      <workItem from="1593652464271" duration="15234000" />
     </task>
+    <task id="LOCAL-00001" summary="button的基础完成">
+      <created>1593652655180</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593652655180</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,12 +138,75 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="button的基础完成" />
+    <MESSAGE value="buttonGroup 和 测试完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="buttonGroup 和 测试完成" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="270" y="57" key="SettingsEditor" timestamp="1593652598331">
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1593694926529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593652598331" />
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593694926529" />
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1593693230682">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593693230682" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1593693230682">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593693230682" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1593693230682">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593693230682" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1593693230682">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593693230682" />
+    <state width="1493" height="203" key="GridCell.Tab.1.bottom" timestamp="1593693230682">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593693230682" />
+    <state width="1493" height="203" key="GridCell.Tab.1.center" timestamp="1593693230682">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593693230682" />
+    <state width="1493" height="203" key="GridCell.Tab.1.left" timestamp="1593693230682">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593693230682" />
+    <state width="1493" height="203" key="GridCell.Tab.1.right" timestamp="1593693230682">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593693230682" />
+    <state width="1493" height="203" key="GridCell.Tab.4.bottom" timestamp="1593693130457">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593693130457" />
+    <state width="1493" height="203" key="GridCell.Tab.4.center" timestamp="1593693130457">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1593693130457" />
+    <state width="1493" height="203" key="GridCell.Tab.4.left" timestamp="1593693130457">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1593693130457" />
+    <state width="1493" height="203" key="GridCell.Tab.4.right" timestamp="1593693130457">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1593693130457" />
+    <state x="270" y="57" key="SettingsEditor" timestamp="1593656052525">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593656052525" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1593652761831">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593652761831" />
+    <state x="562" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593652700373">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="562" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1593652700373" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593597615899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
