@@ -24,6 +24,8 @@ module.exports = {
         "after": false
       }
     ],
+    // 模板字符串 空格
+    "template-curly-spacing": ["error", "always"]
   },
   overrides: [
     {
