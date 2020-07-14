@@ -18,8 +18,8 @@
 </script>
 
 <style scoped lang="scss">
-  @import "./../styles/mixin";
-  @import "./../styles/_var";
+  @import "../../styles/mixin";
+  @import "../../styles/var";
 .ac-button-group{
   @include flexSet($dis:inline-flex);
   button{

@@ -1,7 +1,9 @@
 //flex布局复用
-@mixin flexSet($dis:flex,$hov:space-between,$ver:middle) {
+@import "var";
+@mixin flexSet($dis:flex,$hov:space-between,$ver:middle,$col:center) {
   display: $dis;
-  justify-content: $hov; //上下
+  justify-content: $hov; // 主轴对齐方式
+  align-items: $col;
   vertical-align: $ver // 图片对其
 };
 @mixin position($pos:absolute,$top:0,$left:0,$width:100%,$height:100%){
@@ -11,3 +13,9 @@
   width: $width;
   height: $height;
 };
+@mixin res($key) {
+  //  inspect Map 无法转换为纯 CSS。使用一个作为 CSS 函数的变量或参数的值将导致错误。使用inspect($value)函数来生成一个对调试 map 有用的输出字符串。
+  @media only screen and #{inspect(map_get($map,$key))}{
+    @content //插槽
+  }
+}

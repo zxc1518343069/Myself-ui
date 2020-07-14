@@ -1,11 +1,11 @@
 <template>
-  <svg class="icon" aria-hidden="true">
+  <svg class="ac-icon" aria-hidden="true">
     <use :xlink:href="`#icon-${icon}`"></use>
   </svg>
 </template>
 
 <script>
-  import '../styles/icon.js'
+  import '../../styles/icon.js'
 
   export default {
     name: 'ac-icon',
@@ -18,8 +18,8 @@
   }
 </script>
 
-<style scoped>
-  .icon {
+<style lang="scss">
+  .ac-icon {
     width: 25px;
     height:25px;
     vertical-align: middle;

@@ -7,10 +7,18 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "test": "karma start"
+    "test": "karma start",
+    "lib": "vue-cli-service build --target lib --name ac-ui ./src/packages/index.js"
   },
+  "main": "./dist/ac-ui.umd.min.js",
   "dependencies": {
+    "@koa/multer": "^3.0.0",
+    "@koa/router": "^9.3.1",
     "core-js": "^3.6.5",
+    "koa": "^2.13.0",
+    "koa-cors": "0.0.16",
+    "koa2-cors": "^2.0.6",
+    "multer": "^1.4.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {

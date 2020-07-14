@@ -1,0 +1,7 @@
+"lib": "vue-cli-service build --target lib --name ac-ui ./src/packages/index.js"
+打包成一个库  参考地址
+https://cli.vuejs.org/zh/guide/build-targets.html
+
+给出一个路径。 require 或者import 的时候 从这个路径找
+main属性主要使用在引用或者开发某个依赖包的时候需要此属性的支持，不然工程中无法用import导入依赖包；
+"main": "./dist/ac-ui.umd.min.js",

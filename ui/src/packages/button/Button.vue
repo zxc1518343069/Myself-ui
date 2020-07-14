@@ -1,7 +1,7 @@
 <template>
   <button class="ac-button" :class="btnClass" :disabled="loading" @click="$emit('click',$event)">
-    <ac-icon v-if="icon  && !loading" :icon="icon" :class="icon"></ac-icon>
-    <ac-icon v-if="loading" icon="xingzhuang" :class="icon"></ac-icon>
+    <ac-icon v-if="icon  && !loading" :icon="icon" class="icon"></ac-icon>
+    <ac-icon v-if="loading" icon="xingzhuang" class="icon"></ac-icon>
     <span v-if="this.$slots.default">
       <slot></slot>
     </span>
@@ -54,9 +54,9 @@
   }
 </script>
 
-<style scoped lang="scss">
-  @import "../styles/_var.scss";
-  @import "../styles/mixin";
+<style lang="scss">
+  @import "../../styles/var";
+  @import "../../styles/mixin";
 
   $height: 42px;
   $font-size: 16px;
