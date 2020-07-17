@@ -4,14 +4,22 @@
              v-if="prefixIcon"
     ></ac-icon>
     <input :type="ShowPassword?(password?'text':'password'):type" :name="name" :placeholder="placeholder"
-           :value="value" @input="$emit('input',$event.target.value)" :disabled="disabled" ref="input">
-<!--    @mousedown.native.prevent 不会失去焦点-->
+           :value="value"
+           @input="$emit('input',$event.target.value)"
+           :disabled="disabled" ref="input"
+           @change="$emit('change',$event)"
+           @blur="$emit('blur',$event)"
+           @focus="$emit('focus',$event)"
+    >
+
+
+    <!--    @mousedown.native.prevent 不会失去焦点-->
     <ac-icon icon="qingkong"
              v-if="clearable && value"
              @click.native="$emit('input','')"
              @mousedown.native.prevent
     ></ac-icon>
-<!--    先失去 再获取焦点-->
+    <!--    先失去 再获取焦点-->
     <ac-icon icon="xianshimima"
              v-if="ShowPassword && value"
              @click.native="changeState"
@@ -26,7 +34,7 @@
 <script>
   export default {
     name: 'ac-input',
-    data(){
+    data() {
       return {
         // 尽量不要直接更改 父组件传过来的值
         password: true
@@ -57,15 +65,15 @@
         type: Boolean,
         default: false
       },
-      ShowPassword:{
-        type:Boolean,
-        default:false
+      ShowPassword: {
+        type: Boolean,
+        default: false
       },
-      prefixIcon:{
-        type:String
+      prefixIcon: {
+        type: String
       },
-      suffixIcon:{
-        type:String
+      suffixIcon: {
+        type: String
       }
     },
     computed: {
@@ -74,14 +82,14 @@
         if (this.clearable || this.ShowPassword || this.suffixIcon) {
           classes.push('ac-input-suffix-icon')
         }
-        if (this.prefixIcon){
+        if (this.prefixIcon) {
           classes.push('ac-input-prefix-icon')
         }
         return classes
       }
     },
-    methods:{
-      changeState(){
+    methods: {
+      changeState() {
         this.password = !this.password
         this.$nextTick(()=>{
           this.$refs.input.focus()
@@ -118,6 +126,7 @@
       }
     }
   }
+
   .ac-input-suffix-icon {
     .ac-icon {
       position: absolute;
@@ -126,10 +135,12 @@
       cursor: pointer;
     }
   }
+
   .ac-input-prefix-icon {
-    input{
+    input {
       padding-left: 30px;
     }
+
     .ac-icon {
       position: absolute;
       left: 8px;

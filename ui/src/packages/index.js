@@ -14,6 +14,8 @@ import header from './container/header';
 import input from './Form/input';
 import upLoad from './Form/upLoad';
 import progress from './progress';
+import datePack from './datePack/date-pick'
+import dateRangePack from './datePack/date-range-pick'
 
 const install = (Vue)=>{
   Vue.component(Button.name, Button)
@@ -29,6 +31,8 @@ const install = (Vue)=>{
   Vue.component(input.name, input)
   Vue.component(upLoad.name, upLoad)
   Vue.component(progress.name, progress)
+  Vue.component(datePack.name, datePack)
+  Vue.component(dateRangePack.name, dateRangePack)
 }
 
 // 防止用户直接 script引入
