@@ -5,7 +5,10 @@
     <!--    <ContainerTest></ContainerTest>-->
     <!--    <FormTest></FormTest>-->
 <!--    <DatePickTest></DatePickTest>-->
-    <SwitchTest></SwitchTest>
+<!--    <SwitchTest></SwitchTest>-->
+    <InfiniteScrollTest></InfiniteScrollTest>
+
+
   </div>
 </template>
 
@@ -16,6 +19,7 @@
   import FormTest from './components/FormTest';
   import DatePickTest from './components/DatePickTest';
   import SwitchTest from './components/SwitchTest';
+  import InfiniteScrollTest from './components/InfiniteScrollTest';
 
   export default {
     name: 'App',
@@ -23,7 +27,7 @@
       ButtonTest,
       LayoutTest,
       ContainerTest,
-      FormTest, DatePickTest,SwitchTest
+      FormTest, DatePickTest,SwitchTest,InfiniteScrollTest
     }
   }
 </script>

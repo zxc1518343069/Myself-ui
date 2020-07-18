@@ -17,6 +17,8 @@ import progress from './progress';
 import datePack from './datePack/date-pick'
 import dateRangePack from './datePack/date-range-pick'
 import Switch from './switch/Switch';
+import infiniteScroll from './infiniteScroll';
+
 const install = (Vue)=>{
   Vue.component(Button.name, Button)
   Vue.component(Icon.name, Icon)
@@ -34,6 +36,9 @@ const install = (Vue)=>{
   Vue.component(datePack.name, datePack)
   Vue.component(dateRangePack.name, dateRangePack)
   Vue.component(Switch.name, Switch)
+
+  // 指令
+  Vue.directive(infiniteScroll.name,infiniteScroll)
 }
 
 // 防止用户直接 script引入
