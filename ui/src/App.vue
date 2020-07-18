@@ -4,7 +4,8 @@
     <!--    <LayoutTest></LayoutTest>-->
     <!--    <ContainerTest></ContainerTest>-->
     <!--    <FormTest></FormTest>-->
-    <DatePickTest></DatePickTest>
+<!--    <DatePickTest></DatePickTest>-->
+    <SwitchTest></SwitchTest>
   </div>
 </template>
 
@@ -14,6 +15,7 @@
   import ContainerTest from './components/ContainerTest';
   import FormTest from './components/FormTest';
   import DatePickTest from './components/DatePickTest';
+  import SwitchTest from './components/SwitchTest';
 
   export default {
     name: 'App',
@@ -21,7 +23,7 @@
       ButtonTest,
       LayoutTest,
       ContainerTest,
-      FormTest, DatePickTest
+      FormTest, DatePickTest,SwitchTest
     }
   }
 </script>

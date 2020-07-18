@@ -1,6 +1,7 @@
 <template>
   <div>
     <ac-date-pick v-model="value"></ac-date-pick>
+    {{ this.value }}
   </div>
 </template>
 

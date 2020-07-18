@@ -21,20 +21,18 @@
   <component name="ChangeListManager">
     <list default="true" id="a43b5010-a0a4-4cd5-b34d-f024d7be20c3" name="默认更改列表" comment="input Layout upload 全部完成">
       <change afterPath="$PROJECT_DIR$/doc/docs/.vuepress/components/datePack/base.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/docs/.vuepress/components/switch/base.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/docs/.vuepress/components/switch/color.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/docs/.vuepress/components/switch/disable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/docs/.vuepress/components/switch/text.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/doc/docs/components/datePick.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/public/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/src/components/DatePickTest.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/src/packages/datePack/date-pick.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/src/packages/datePack/date-range-pick.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/uploads/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/docs/components/switch.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/src/components/SwitchTest.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/src/packages/switch/Switch.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/packages/Form/input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/packages/Form/input.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/packages/button/Icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/packages/button/Icon.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/components/DatePickTest.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/components/DatePickTest.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/src/packages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/packages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/src/styles/icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/styles/icon.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +43,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Vue Single File Component" />
         <option value="HTML File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -105,7 +103,7 @@
       <recent name="D:\UI\Myself-ui\ui\src\packages\button" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.lib">
+  <component name="RunManager" selected="npm.docs:dev">
     <configuration name="Row.vue.测试gutter是否可以 " type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
       <config-file value="$PROJECT_DIR$/ui/karma.conf.js" />
       <karma-package-dir value="$PROJECT_DIR$/ui/node_modules/karma" />
@@ -182,7 +180,8 @@
       <workItem from="1594804412303" duration="1339000" />
       <workItem from="1594858595052" duration="563000" />
       <workItem from="1594859199621" duration="23037000" />
-      <workItem from="1594947650909" duration="9372000" />
+      <workItem from="1594947650909" duration="16330000" />
+      <workItem from="1595033865975" duration="669000" />
     </task>
     <task id="LOCAL-00001" summary="button的基础完成">
       <created>1593652655180</created>
@@ -205,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594736639024</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="timepick完成">
+      <created>1594971584946</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594971584946</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +234,8 @@
     <MESSAGE value="button的基础完成" />
     <MESSAGE value="buttonGroup 和 测试完成" />
     <MESSAGE value="input Layout upload 全部完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="input Layout upload 全部完成" />
+    <MESSAGE value="timepick完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="timepick完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="602" y="202" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594189229914">
@@ -243,26 +250,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="53" key="#插件/0.0.1536.824@0.0.1536.824" timestamp="1594859844620" />
-    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1594736846563">
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1594971581052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594736846563" />
-    <state width="1493" height="173" key="GridCell.Tab.0.bottom" timestamp="1594968499538">
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594971581052" />
+    <state width="1493" height="173" key="GridCell.Tab.0.bottom" timestamp="1594998756641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="173" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594968499538" />
-    <state width="1493" height="173" key="GridCell.Tab.0.center" timestamp="1594968499538">
+    <state width="1493" height="173" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594998756641" />
+    <state width="1493" height="173" key="GridCell.Tab.0.center" timestamp="1594998756641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="173" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594968499538" />
-    <state width="1493" height="173" key="GridCell.Tab.0.left" timestamp="1594968499538">
+    <state width="1493" height="173" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594998756641" />
+    <state width="1493" height="173" key="GridCell.Tab.0.left" timestamp="1594998756641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="173" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594968499538" />
-    <state width="1493" height="173" key="GridCell.Tab.0.right" timestamp="1594968499538">
+    <state width="1493" height="173" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594998756641" />
+    <state width="1493" height="173" key="GridCell.Tab.0.right" timestamp="1594998756641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="173" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594968499538" />
+    <state width="1493" height="173" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594998756641" />
     <state width="1493" height="173" key="GridCell.Tab.1.bottom" timestamp="1593859545591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -303,10 +310,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594737370434" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1594736853588">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1594971590858">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594736853588" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594971590858" />
     <state x="582" y="64" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1594736843018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
