@@ -18,6 +18,9 @@ import datePack from './datePack/date-pick'
 import dateRangePack from './datePack/date-range-pick'
 import Switch from './switch/Switch';
 import infiniteScroll from './infiniteScroll';
+import Message from './Message';
+import popover from './popover/popover';
+import Vue from 'vue';
 
 const install = (Vue)=>{
   Vue.component(Button.name, Button)
@@ -36,12 +39,15 @@ const install = (Vue)=>{
   Vue.component(datePack.name, datePack)
   Vue.component(dateRangePack.name, dateRangePack)
   Vue.component(Switch.name, Switch)
-
+  Vue.component(popover.name, popover)
   // 指令
   Vue.directive(infiniteScroll.name,infiniteScroll)
 }
 
 // 防止用户直接 script引入
+
+
+Vue.prototype.$message = Message
 
 if (typeof window.Vue !== 'undefined') {
   install(Vue)

@@ -23,18 +23,22 @@
       <change afterPath="$PROJECT_DIR$/doc/docs/.vuepress/components/datePack/base.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/doc/docs/.vuepress/components/infiniteScroll/ban.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/doc/docs/.vuepress/components/infiniteScroll/base.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/docs/.vuepress/components/message/base.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/docs/.vuepress/components/message/state.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/doc/docs/.vuepress/components/switch/base.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/doc/docs/.vuepress/components/switch/color.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/doc/docs/.vuepress/components/switch/disable.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/doc/docs/.vuepress/components/switch/text.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/doc/docs/components/datePick.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/doc/docs/components/infiniteScroll.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/docs/components/message.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/doc/docs/components/switch.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/src/components/InfiniteScrollTest.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/src/packages/infiniteScroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/src/components/MessageTest.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/src/components/PopoverTest.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/src/packages/Message/Message.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/src/packages/Message/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/src/packages/popover/popover.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/src/packages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/packages/index.js" afterDir="false" />
     </list>
@@ -82,7 +86,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ui/src/packages/datePack" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ui/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -97,11 +101,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\UI\Myself-ui\ui\src\components" />
+      <recent name="D:\UI\Myself-ui\ui\src\packages\Message" />
       <recent name="D:\UI\Myself-ui\ui\src\packages\datePack" />
       <recent name="D:\UI\Myself-ui\doc\docs\.vuepress\components\input" />
       <recent name="D:\UI\Myself-ui\doc\docs\test" />
-      <recent name="D:\UI\Myself-ui\doc\docs\components" />
-      <recent name="D:\UI\Myself-ui\ui\src\packages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\UI\Myself-ui\ui\src\packages\button" />
@@ -185,7 +189,9 @@
       <workItem from="1594858595052" duration="563000" />
       <workItem from="1594859199621" duration="23037000" />
       <workItem from="1594947650909" duration="16330000" />
-      <workItem from="1595033865975" duration="15962000" />
+      <workItem from="1595033865975" duration="16076000" />
+      <workItem from="1595120544297" duration="22683000" />
+      <workItem from="1595207546444" duration="20103000" />
     </task>
     <task id="LOCAL-00001" summary="button的基础完成">
       <created>1593652655180</created>
@@ -222,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595034610187</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="无限滚动完成">
+      <created>1595084560696</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595084560696</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +260,8 @@
     <MESSAGE value="input Layout upload 全部完成" />
     <MESSAGE value="timepick完成" />
     <MESSAGE value="switch完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="switch完成" />
+    <MESSAGE value="无限滚动完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="无限滚动完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="602" y="202" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595081562652">
@@ -262,26 +276,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="53" key="#插件/0.0.1536.824@0.0.1536.824" timestamp="1594859844620" />
-    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1595034608038">
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1595084559186">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595034608038" />
-    <state width="1493" height="173" key="GridCell.Tab.0.bottom" timestamp="1595082026615">
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595084559186" />
+    <state width="1493" height="173" key="GridCell.Tab.0.bottom" timestamp="1595171713304">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="173" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595082026615" />
-    <state width="1493" height="173" key="GridCell.Tab.0.center" timestamp="1595082026615">
+    <state width="1493" height="173" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595171713304" />
+    <state width="1493" height="173" key="GridCell.Tab.0.center" timestamp="1595171713304">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="173" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595082026615" />
-    <state width="1493" height="173" key="GridCell.Tab.0.left" timestamp="1595082026615">
+    <state width="1493" height="173" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595171713304" />
+    <state width="1493" height="173" key="GridCell.Tab.0.left" timestamp="1595171713303">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="173" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595082026615" />
-    <state width="1493" height="173" key="GridCell.Tab.0.right" timestamp="1595082026615">
+    <state width="1493" height="173" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595171713303" />
+    <state width="1493" height="173" key="GridCell.Tab.0.right" timestamp="1595171713304">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="173" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595082026615" />
+    <state width="1493" height="173" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595171713304" />
     <state width="1493" height="173" key="GridCell.Tab.1.bottom" timestamp="1593859545591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -322,10 +336,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594737370434" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1595034620020">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1595084566529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595034620020" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595084566529" />
     <state x="582" y="64" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1594736843018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -338,9 +352,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="546" y="306" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594951094443" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594738791989">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595146189447">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594738791989" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595146189447" />
   </component>
 </project>
