@@ -1,15 +1,15 @@
 <template>
-  <div class="ac-popover" ref="parent" style="margin-left: 100px;">
+  <div class="ac-popover" ref="parent">
     <!--    阻止事件冒泡-->
     <div class="ac-popover-content"
          v-show="show"
-         :class="`arrow-${this.placement}`"
+         :class="`popover-${this.placement}`"
          :style="position"
          ref="content"
          @click.stop>
       <h3 v-if="title">{{ title }}</h3>
       <slot>{{ content }}</slot>
-      <div class="arrow"></div>
+      <div class="popover"></div>
     </div>
     <div ref="reference">
       <slot name="reference"></slot>
@@ -190,7 +190,7 @@
 
   }
 
-  .arrow {
+  .popover {
     position: absolute;
 
     &::after, &::before {
@@ -212,8 +212,8 @@
     }
   }
 
-  .arrow-bottom {
-    .arrow {
+  .popover-bottom {
+    .popover {
       left: 50%;
       margin-left: -6px;
       bottom: 0;
@@ -224,16 +224,16 @@
     }
   }
 
-  .arrow-top {
-    .arrow {
+  .popover-top {
+    .popover {
       left: 50%;
       margin-left: -6px;
       top: -12px;
     }
   }
 
-  .arrow-left {
-    .arrow {
+  .popover-left {
+    .popover {
       top: 50%;
       margin-left: -6px;
       left: -6px;
@@ -244,8 +244,8 @@
     }
   }
 
-  .arrow-right {
-    .arrow {
+  .popover-right {
+    .popover {
       top: 50%;
       margin-left: -6px;
       right: 0;

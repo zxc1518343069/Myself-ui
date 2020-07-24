@@ -1,4 +1,5 @@
 //  组件入口
+import Vue from 'vue';
 
 import Button from './button/Button';
 import Icon from './button/Icon';
@@ -20,7 +21,8 @@ import Switch from './switch/Switch';
 import infiniteScroll from './infiniteScroll';
 import Message from './Message';
 import popover from './popover/popover';
-import Vue from 'vue';
+import pagination from './pagination/pagination';
+import Table from './Table/Table';
 
 const install = (Vue)=>{
   Vue.component(Button.name, Button)
@@ -40,6 +42,8 @@ const install = (Vue)=>{
   Vue.component(dateRangePack.name, dateRangePack)
   Vue.component(Switch.name, Switch)
   Vue.component(popover.name, popover)
+  Vue.component(pagination.name, pagination)
+  Vue.component(Table.name, Table)
   // 指令
   Vue.directive(infiniteScroll.name,infiniteScroll)
 }

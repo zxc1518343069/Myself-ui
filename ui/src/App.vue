@@ -14,7 +14,9 @@
     <!--    <SwitchTest></SwitchTest>-->
     <!--    <InfiniteScrollTest></InfiniteScrollTest>-->
     <!--    <MessageTest></MessageTest>-->
-    <PopoverTest></PopoverTest>
+    <!--    <PopoverTest></PopoverTest>-->
+    <TableTest></TableTest>
+    <paginationTest></paginationTest>
   </div>
 </template>
 
@@ -28,6 +30,8 @@
   import InfiniteScrollTest from './components/InfiniteScrollTest';
   import MessageTest from './components/MessageTest';
   import PopoverTest from './components/PopoverTest';
+  import paginationTest from './components/paginationTest';
+  import TableTest from './components/TableTest';
 
   export default {
     name: 'App',
@@ -40,7 +44,9 @@
       SwitchTest,
       InfiniteScrollTest,
       MessageTest,
-      PopoverTest
+      PopoverTest,
+      paginationTest,
+      TableTest
     }
   }
 </script>
